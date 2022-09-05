@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.5.4"
+  },
+  "name": "traversy-mern",
+  "version": "1.0.0",
+  "description": "Goalsetter app",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/couvq/traversy-mern.git"
+  },
+  "author": "Quentin Couvelaire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/couvq/traversy-mern/issues"
+  },
+  "homepage": "https://github.com/couvq/traversy-mern#readme"
+}
